@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+.navbar-left{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      gap: 35px;
+    }
+.navbar-logo{
+    width: 100px;
+    border-radius: 20px;
+}
+.navbar-link{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ text-align: center;
+ list-style: none;
+ gap: 20px;
+}
+.nav-link{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Sections */
+.hero-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.hero-sections h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1.Frontend-Expertise {
+    color: #007bff;
+}
+
+h1.Backend-Expertise {
+    color: #28a745;
+}
+
+/* Key Skills */
+.Key-Skills {
+    margin-top: 20px;
+}
+
+.Key-Skills p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.Key-Skills p::before {
+    content: "• ";
+    color: #007bff; /* You can customize the color here */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-sections {
+        flex-direction: column;
+    }
+
+    .left-section, .right-section {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        max-width: fit-content;
+    }
+
+    .navbar-leftt, .navbar-right {
+        margin: 10px 0;
+        width: 600px;
+    }
+}
